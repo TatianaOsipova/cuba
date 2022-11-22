@@ -6,4 +6,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 40px;
+}
+
+.header__top-inner{
+    border: 2px solid #ECB84C;
+    border-bottom: none;    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
