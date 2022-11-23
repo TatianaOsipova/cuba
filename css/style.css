@@ -44,18 +44,31 @@
 }
 
 .header__text::after,
-.header__text::before{
+.header__text::before {
     content: "";
     border-top: 2px solid #ECB84C;
     width: 100%;
 }
 
-.header__text::after{
+.header__text::after {
     margin-left: 30px;
 }
 
-.header__text::before{
+.header__text::before {
     margin-right: 30px;
 }
+
+/* nav style start */
+
+.menu {}
+
+.menu__list {}
+
+.menu__list-item {}
+
+.menu__list-link {}
+
+
+/* nav style end */
 
 /* header style end */
