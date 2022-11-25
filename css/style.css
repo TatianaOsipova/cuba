@@ -19,7 +19,16 @@ body {
     font-weight: 400;
 }
 
-.container {}
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-content {
+    max-width: 970px;
+    margin: 0 auto;
+}
 
 /* header style start */
 
@@ -110,5 +119,40 @@ body {
 /* header style end */
 
 /* reason style start */
+
+.reason {
+    padding: 80px 0;
+}
+
+.reason__title {
+    font-family: 'Georgia';
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #4E5665;
+    margin-bottom: 22px;
+}
+
+.reason__link {
+    text-align: right;
+}
+
+.reason__link a{
+    font-weight: 700;
+    color: #ECB84C;
+    margin-bottom: 36px;
+}
+
+.reason__statistics {}
+
+.reason__statistics-item {}
+
+.reason__statistics-image {}
+
+.reason__statistics-num {}
+
+.reason__statistics-text {}
+
+
 
 /* reason style end */
