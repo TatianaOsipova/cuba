@@ -25,13 +25,13 @@ body {
     margin: 0 auto;
 }
 
-.section-line{
-    border-bottom: 1px solid rgba(208, 212, 216, .5);
-}
-
 .container-content {
     max-width: 970px;
     margin: 0 auto;
+}
+
+.section-line{
+    border-bottom: 1px solid rgba(208, 212, 216, .5);
 }
 
 /* header style start */
