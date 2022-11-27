@@ -45,7 +45,6 @@ body {
 /* header style start */
 
 .header__top {
-    background-image: url('../img/top-bg.jpg');
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -221,6 +220,7 @@ body {
     right: 19px;
     bottom: 19px;
 }
+
 /* different ways to add gold corner */
 
 .about__box-title {
