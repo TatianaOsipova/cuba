@@ -200,13 +200,37 @@ body {
     position: relative;
 }
 
+.about__box::after,
+.about__box::before {
+    content: "";
+    position: absolute;
+    width: 33px;
+    height: 33px;
+}
+
+/* different ways to add gold corner */
+.about__box::before {
+    background-image: url(../img/decor-left.svg);
+    top: 19px;
+    left: 19px;
+}
+
+.about__box::after {
+    border-bottom: 2px solid #ECB84C;
+    border-right: 2px solid #ECB84C;
+    right: 19px;
+    bottom: 19px;
+}
+/* different ways to add gold corner */
+
 .about__box-title {
     font-family: 'Georgia';
     font-size: 24px;
     line-height: 25px;
     color: #4E5665;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
 }
+
 
 
 
