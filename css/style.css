@@ -258,15 +258,21 @@ body {
 
 /* about style start */
 
+/* photo style start */
+
+.section-line {}
+
+.photo {}
+
+.photo__title {}
+
+.photo__text {}
+
+.photo__slider {}
+
+.photo__img {}
+
+.title {}
 
 
-
-
-
-
-
-
-
-
-
-
+/* photo style end */
