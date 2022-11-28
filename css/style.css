@@ -262,11 +262,31 @@ body {
 
 .section-line {}
 
-.photo {}
+.photo {
+    padding: 80px 0;
+}
 
-.photo__title {}
+.photo__title {
+    margin-bottom: 42px;
+}
 
-.photo__text {}
+.photo__text {
+    padding-bottom: 48px;
+    margin-bottom: 56px;
+    position: relative;
+}
+
+.photo__text::after{
+    content: "";
+    position: absolute;
+    width: 270px;
+    height: 1px;
+    background-color: rgba(208, 212, 216, .5);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
 
 .photo__slider {}
 
