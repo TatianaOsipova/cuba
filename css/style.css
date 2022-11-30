@@ -343,6 +343,10 @@ body {
     display: none;
 }
 
+.four{
+    color: #fff;
+}
+
 .about__dot:hover::before{
     display: block;
 }
