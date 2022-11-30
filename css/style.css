@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -200,7 +200,7 @@ body {
     margin-bottom: 100px;
     padding: 70px 0;
     background-repeat: no-repeat;
-    background-position: right;    
+    background-position: right;
 }
 
 .about__box {
@@ -264,6 +264,18 @@ body {
     border-right: none;
     border-left: 2px solid #ECB84C;
 }
+
+.about__previe-title {
+    margin-bottom: 38px;
+}
+
+.about__images-box {}
+
+.about__preview-text {}
+}
+
+.title {}
+
 
 /* about style start */
 
