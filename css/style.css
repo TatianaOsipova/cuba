@@ -458,7 +458,6 @@ body {
 .footer__item-link--social {
     padding-left: 28px;
     position: relative;
-
 }
 
 .footer__item-link--social::before {
@@ -500,5 +499,10 @@ body {
     line-height: 19px;
 }
 
-
 /* footer style end */
+
+/* adaptive start */
+
+
+
+/* adaptive end */
