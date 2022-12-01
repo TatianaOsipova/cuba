@@ -381,9 +381,9 @@ body {
     height: 1px;
     background-color: rgba(208, 212, 216, .5);
     bottom: 0;
+    margin: 0 auto;
     left: 0;
     right: 0;
-    margin: 0 auto;
 }
 
 .photo__slider {
@@ -604,6 +604,14 @@ body {
 
     .menu__list-link:hover {
         border-bottom: 4px solid transparent;
+    }
+
+    .slick-next {
+        right: 20px;
+    }
+
+    .slick-prev {
+        left: 20px;
     }
 }
 
