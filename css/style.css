@@ -508,6 +508,22 @@ body {
 
 /* adaptive start */
 
+@media (max-width: 840px) {
+    .about__item {
+        padding: 382px 0 70px;
+        background-position: top;
+        margin-bottom: 0;
+    }
+
+    .about__box {
+        margin: 0 auto;
+    }
+
+    .about__item:nth-child(even) {
+        background-position: top;
+    }
+}
+
 @media (max-width: 700px) {
     .header__title {
         font-size: 120px;
@@ -573,18 +589,22 @@ body {
     .header__title {
         font-size: 100px;
     }
-    .title{
+
+    .title {
         font-size: 24px;
         line-height: 28px;
     }
-    body{
+
+    body {
         font-size: 15px;
         line-height: 24px;
     }
-    .reason__statistics{
+
+    .reason__statistics {
         display: block;
     }
-    .reason__statistics-item{
+
+    .reason__statistics-item {
         margin-bottom: 35px;
     }
 
