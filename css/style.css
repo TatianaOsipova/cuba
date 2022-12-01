@@ -540,6 +540,13 @@ body {
     .about__images-box {
         padding-top: 0;
     }
+
+    .footer__item--company {
+        width: 140px;
+        padding-left: 0;
+    }
+
+
 }
 
 @media (max-width: 840px) {
@@ -555,6 +562,16 @@ body {
 
     .about__item:nth-child(even) {
         background-position: top;
+    }
+
+    .footer__items {
+        flex-wrap: wrap;
+    }
+
+    .footer__item {
+        width: 50%;
+        margin-bottom: 35px;
+        padding-right: 25px;
     }
 }
 
@@ -651,14 +668,22 @@ body {
     }
 }
 
+@media (max-width: 470px){
+    .footer__items{
+        display: block;
+    }
+
+    .footer__item{
+        width: 100%;
+        padding-right: 0;
+
+    }
+}
+
 @media (min-width: 700px) {
     .menu__list {
         display: flex !important;
     }
 }
-
-
-
-
 
 /* adaptive end */
